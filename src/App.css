@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/composed-particles-swirling-abstract-graphics_456031-137.jpg?t=st=1715881805~exp=1715885405~hmac=ed81df8a4e27b8332c7549aa1b393062e2f1380e2871c6bcaf38a1ac49d39d64&w=1800");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+  background: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.8rem;
+  border: 1px solid #98E4FF;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+.login-overlay {
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  top: 0%;
+  right: 0%;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.login-container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.login-container h2 {
+  font-size: 30px;
+  color: #98E4FF;
+  text-align: left;
+}
+
+.login-container form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.login-container input {
+  padding: 6px;
+  margin: 1px 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.login-container input:focus {
+  outline: none;
+}
+
+.login-button {
+  margin-top: 1rem;
+  color: #98E4FF;
+  cursor: pointer;
+}
+
+.logout-button {
+  margin-top: 1rem;
+  color: #FF004D;
+  border: 1px solid #FF004D;
+  cursor: pointer;
+}
+
+.to-second-page {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: start;
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+.second-page-link a {
+  margin-left: 0.3rem;
+  color: #98E4FF;
+  transition: 0.3s;
+}
+
+.second-page-link a:hover {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+.alert {
+  color: #F3CA52;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  padding: 5px;
+}
+
+.email-text {
+  font-size: 0.9rem;
+}
